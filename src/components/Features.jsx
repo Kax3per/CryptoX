@@ -17,7 +17,7 @@ const Features = () => {
               alt="dashboard"
               className="
                 w-full 
-                max-w-[600px]
+                max-w-150
                 rounded-2xl
                 shadow-[0_40px_60px_rgba(0,0,0,0.15)]
                 border border-gray-200
@@ -30,7 +30,7 @@ const Features = () => {
 
             <h2 className="text-[30px] sm:text-[38px] font-semibold leading-[1.1]">
               Your crypto
-              <span className="block bg-gradient-to-r from-purple-500 via-blue-500 to-purple-400 text-transparent bg-clip-text">
+              <span className="block bg-linear-to-r from-purple-500 via-blue-500 to-purple-400 text-transparent bg-clip-text">
                 control center
               </span>
             </h2>
@@ -72,11 +72,11 @@ const Features = () => {
           </div>
 
           {/* TEXT */}
-          <div className="relative z-10 pl-16 xl:pl-28 pr-6 max-w-[560px]">
+          <div className="relative z-10 pl-16 xl:pl-28 pr-6 max-w-140">
 
             <h2 className="text-[42px] xl:text-[56px] font-semibold leading-[1.1]">
               Your crypto
-              <span className="block bg-gradient-to-r from-purple-500 via-blue-500 to-purple-400 text-transparent bg-clip-text">
+              <span className="block bg-linear-to-r from-purple-500 via-blue-500 to-purple-400 text-transparent bg-clip-text">
                 control center
               </span>
             </h2>
